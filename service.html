@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <title>AküServ - Akü Servis ve Satış Hizmetleri</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Yükleniyor...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>Beykent Beylikdüzü İstanbul</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Pazartesi - Cuma: 08:00 - 20:00</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <a href="tel:+905330596367" class="text-decoration-none text-dark">
+                        <small class="fa fa-phone-alt text-primary me-2"></small>
+                        <small>0 (533) 059 63 67</small>
+                    </a>
+                </div>
+                
+                <div class="h-100 d-inline-flex align-items-center">
+                    <!-- Instagram Butonu -->
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.instagram.com/erenakumarket0" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                
+                    <!-- WhatsApp Butonu -->
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href="https://wa.me/905330596367" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img/logo-1.png" style="height: 28px; width: auto;" alt="Eren Akü Market Logo" class="me-3">
+            <h2 class="m-0 text-primary">Market</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Anasayfa</a>
+                <a href="about.html" class="nav-item nav-link active">Hakkımızda</a>
+                <a href="service.html" class="nav-item nav-link">Akülerİmİz</a>
+                <a href="contact.html" class="nav-item nav-link">İletİşİm</a>
+            </div>
+            <a href="tel:+905330596367" class="btn btn-primary py-2 px-lg-4 d-none d-lg-flex align-items-center justify-content-center" style="width: 15rem;">
+                <img src="img/24-7-icon2.png" alt="7/24 Icon" style="height: 60px; width: auto; margin-right: 10px;">
+                <span>7/24 Yol Yardım</span>
+            </a>                   
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-bg-1.jpg);">
+        <div class="container-fluid page-header-inner py-5">
+            <div class="container text-center">
+                <h1 class="display-3 text-white mb-3 animated slideInDown">AKÜLERİMİZ</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center text-uppercase">
+                        <li class="breadcrumb-item"><a href="#">ANASAYFA</a></li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">AKÜLERİMİZ</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl service py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-primary text-uppercase">// Akü Çeşitlerimiz //</h6>
+                <h1 class="mb-5">Akü Markalarımız</h1>
+            </div>
+            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4">
+                    <div class="nav w-100 nav-pills me-4">
+                        <!-- Varta -->
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
+                            <i class="fa fa-car-battery fa-2x text-primary flex-shrink-0 text-white me-3"></i>
+                            <h4 class="m-0">Varta</h4>
+                        </button>
+                        <!-- Bosch -->
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
+                            <i class="fa fa-car-battery fa-2x text-primary flex-shrink-0 text-white me-3"></i>
+                            <h4 class="m-0">Bosch</h4>
+                        </button>
+                        <!-- Energizer -->
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
+                            <i class="fa fa-car-battery fa-2x text-primary flex-shrink-0 text-white me-3"></i>
+                            <h4 class="m-0">Energizer</h4>
+                        </button>
+                        <!-- Mutlu -->
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-0" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
+                            <i class="fa fa-car-battery fa-2x text-primary flex-shrink-0 text-white me-3"></i>
+                            <h4 class="m-0">Mutlu</h4>
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="col-lg-8">
+                    <div class="tab-content w-100">
+
+                        <!-- Varta -->
+                        <div class="tab-pane fade show active" id="tab-pane-1">
+                            <div class="row g-4">
+                                <!-- VARTA Blue Dynamic -->
+                                <div class="col-md-4 text-center">
+                                    <h4 class="mb-3">VARTA Blue Dynamic</h4>
+                                    <div class="battery-image">
+                                        <img src="img/aku_cesitleri/varta1.png" alt="VARTA Blue Dynamic">
+                                    </div>
+                                </div>
+
+                                <!-- VARTA Silver Dynamic -->
+                                <div class="col-md-4 text-center">
+                                    <h4 class="mb-3">VARTA Silver Dynamic</h4>
+                                    <div class="battery-image">
+                                        <img src="img/aku_cesitleri/varta2.png" alt="VARTA Silver Dynamic">
+                                    </div>
+                                </div>
+
+                                <!-- VARTA Black Dynamic -->
+                                <div class="col-md-4 text-center">
+                                    <h4 class="mb-3">VARTA Blue Dynamic</h4>
+                                    <div class="battery-image">
+                                        <img src="img/aku_cesitleri/varta3.png" alt="VARTA Black Dynamic">
+                                    </div>
+                                </div>
+
+                                <!-- Silver Dynamic Auxiliary -->
+                                <div class="col-md-4 text-center">
+                                    <h4 class="mb-3">Silver Dynamic Auxiliary</h4>
+                                    <div class="battery-image">
+                                        <img src="img/aku_cesitleri/varta4.png" alt="Silver Dynamic Auxiliary">
+                                    </div>
+                                </div>
+
+                                <!-- Black Dynamic -->
+                                <div class="col-md-4 text-center">
+                                    <h4 class="mb-3">Black Dynamic</h4>
+                                    <div class="battery-image">
+                                        <img src="img/aku_cesitleri/varta5.png" alt="Black Dynamic">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Bosch -->
+                        <div class="tab-pane fade" id="tab-pane-2">
+                            <div class="row g-4">
+                                <!-- Bosch 12V 60 AGM -->
+                                <div class="col-md-4 text-center">
+                                    <h4 class="mb-3">Bosch 12V 60 AGM</h4>
+                                    <div class="battery-image">
+                                        <img src="img/aku_cesitleri/bosch1.png" alt="Bosch 12V 60 AGM">
+                                    </div>
+                                </div>
+
+                                <!-- Bosch 12V 60 AH -->
+                                <div class="col-md-4 text-center">
+                                    <h4 class="mb-3">Bosch 12V 60 AH</h4>
+                                    <div class="battery-image">
+                                        <img src="img/aku_cesitleri/bosch2.png" alt="Bosch 12V 60 AH">
+                                    </div>
+                                </div>
+
+                                <!-- Bosch 12V 60 EFB -->
+                                <div class="col-md-4 text-center">
+                                    <h4 class="mb-3">Bosch 12V 60 EFB</h4>
+                                    <div class="battery-image">
+                                        <img src="img/aku_cesitleri/bosch3.png" alt="12V 60 EFB">
+                                    </div>
+                                </div>
+
+                                <!-- Bosch 12V 71 AH -->
+                                <div class="col-md-4 text-center">
+                                    <h4 class="mb-3">Bosch 12V 71 AH</h4>
+                                    <div class="battery-image">
+                                        <img src="img/aku_cesitleri/bosch4.png" alt="Bosch 12V 71 AH">
+                                    </div>
+                                </div>
+
+                                <!-- Bosch 12V 80 AGM -->
+                                <div class="col-md-4 text-center">
+                                    <h4 class="mb-3">Bosch 12V 80 AGM</h4>
+                                    <div class="battery-image">
+                                        <img src="img/aku_cesitleri/bosch5.png" alt="Bosch 12V 80 AGM">
+                                    </div>
+                                </div>
+
+                                <!-- Bosch 12V 95 AH -->
+                                <div class="col-md-4 text-center">
+                                    <h4 class="mb-3">Bosch 12V 95 AH</h4>
+                                    <div class="battery-image">
+                                        <img src="img/aku_cesitleri/bosch6.png" alt="Bosch 12V 95 AH">
+                                    </div>
+                                </div>
+
+                                <!-- Bosch S4 032 Silver 12 V 74 Ah -->
+                                <div class="col-md-4 text-center">
+                                    <h4 class="mb-3">Bosch S4 032 Silver 12 V 74 Ah</h4>
+                                    <div class="battery-image">
+                                        <img src="img/aku_cesitleri/bosch7.png" alt="Bosch S4 032 Silver 12 V 74 Ah">
+                                    </div>
+                                </div>
+
+                                <!-- Bosch S4 043 Silver 12 V 62 Ah -->
+                                <div class="col-md-4 text-center">
+                                    <h4 class="mb-3">Bosch S4 043 Silver 12 V 62 Ah</h4>
+                                    <div class="battery-image">
+                                        <img src="img/aku_cesitleri/bosch8.png" alt="Bosch S4 043 Silver 12 V 62 Ah">
+                                    </div>
+                                </div>         
+                                
+                                <!-- Bosch S4 E82 EFB 12 V 70 Ah -->
+                                <div class="col-md-4 text-center">
+                                    <h4 class="mb-3">Bosch S4 E82 EFB 12 V 70 Ah</h4>
+                                    <div class="battery-image">
+                                        <img src="img/aku_cesitleri/bosch9.png" alt="Bosch S4 E82 EFB 12 V 70 Ah">
+                                    </div>
+                                </div>     
+                                
+                                <!-- Bosch S5 022 12 V 55 Ah -->
+                                <div class="col-md-4 text-center">
+                                    <h4 class="mb-3">Bosch S5 022 12 V 55 Ah</h4>
+                                    <div class="battery-image">
+                                        <img src="img/aku_cesitleri/bosch10.png" alt="Bosch S5 022 12 V 55 Ah">
+                                    </div>
+                                </div>    
+                                
+                                <!-- Bosch S512v 100 Ah -->
+                                <div class="col-md-4 text-center">
+                                    <h4 class="mb-3">Bosch S512v 100 Ah</h4>
+                                    <div class="battery-image">
+                                        <img src="img/aku_cesitleri/bosch11.png" alt="Bosch S512v 100 Ah">
+                                    </div>
+                                </div>                                 
+
+                            </div>
+                        </div>
+    
+                        <!-- Energizer -->
+                        <div class="tab-pane fade" id="tab-pane-3">
+                            <div class="row g-4">
+                                <div class="row g-4">
+
+                                    <!-- Energizer Premium AGM -->
+                                    <div class="col-md-4 text-center">
+                                        <h4 class="mb-3">Energizer Premium AGM</h4>
+                                        <div class="battery-image">
+                                            <img src="img/aku_cesitleri/energizer1.jpg" alt="Energizer Premium AGM">
+                                        </div>
+                                    </div>
+    
+                                    <!-- Energizer Plus -->
+                                    <div class="col-md-4 text-center">
+                                        <h4 class="mb-3">Energizer Plus</h4>
+                                        <div class="battery-image">
+                                            <img src="img/aku_cesitleri/energizer2.jpg" alt="Energizer Plus">
+                                        </div>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Mutlu -->
+                        <div class="tab-pane fade" id="tab-pane-4">
+                            <div class="row g-4">
+
+                                <!-- Mutlu EFB -->
+                                <div class="col-md-4 text-center">
+                                    <h4 class="mb-3">Mutlu EFB</h4>
+                                    <div class="battery-image">
+                                        <img src="img/aku_cesitleri/mutlu1.png" alt="Mutlu EFB">
+                                    </div>
+                                </div>
+
+                                 <!-- Mutlu SFB Avrupa-->
+                                 <div class="col-md-4 text-center">
+                                    <h4 class="mb-3">Mutlu SFB Avrupa</h4>
+                                    <div class="battery-image">
+                                        <img src="img/aku_cesitleri/mutlu2.png" alt="Mutlu SFB Avrupa">
+                                    </div>
+                                </div>
+
+                                 <!-- Mutlu SFB Japon-->
+                                 <div class="col-md-4 text-center">
+                                    <h4 class="mb-3">Mutlu SFB Japon</h4>
+                                    <div class="battery-image">
+                                        <img src="img/aku_cesitleri/mutlu3.png" alt="Mutlu SFB Japon">
+                                    </div>
+                                </div>                                
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Service End -->
+
+
+    <!-- Booking Start -->
+    <div class="container-fluid bg-secondary booking my-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-12 py-5">
+                    <div class="py-5">
+                        <h1 class="text-white mb-4">Güvenilir Akü Çözümlerinde Lider</h1>
+                        <p class="text-white mb-0">
+                            Firmamız, yılların verdiği tecrübe ve uzmanlıkla, araç aküleri konusunda en kaliteli hizmeti sunmayı amaçlamaktadır. 
+                            Geniş ürün yelpazemiz, müşterilerimizin farklı ihtiyaçlarına cevap verecek şekilde özenle seçilmiştir. 
+                            Hem bireysel hem de ticari müşterilerimize en iyi performansı sağlayacak akü çözümleri sunuyoruz.
+                            <br><br>
+                            Neden bizi tercih etmelisiniz? 
+                            <ul class="text-white">
+                                <li>✅ Uzman kadro ve yılların deneyimi</li>
+                                <li>✅ Güvenilir, uzun ömürlü ve kaliteli ürünler</li>
+                                <li>✅ Hızlı teslimat ve montaj hizmetleri</li>
+                                <li>✅ 7/24 müşteri desteği</li>
+                            </ul>
+                            <br>
+                            <p class="text-white">
+                            Müşterilerimizin memnuniyeti, önceliğimizdir. Her zaman en iyi hizmeti sunmak için çalışıyoruz. Bize ulaşın, aracınız için en uygun akü çözümünü birlikte bulalım.
+                        </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Booking End -->
+
+
+<!-- Tips & Awareness Start -->
+<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="text-center">
+            <h6 class="text-primary text-uppercase">// FAYDALI BİLGİLER //</h6>
+            <h1 class="mb-5">Akü Kullanımı ve Doğaya Saygı</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="bg-light text-center p-4">
+                    <h5 class="text-uppercase">Eski Akülerinizi Geri Dönüştürün</h5>
+                    <p class="mb-0">Eski aküler, doğru şekilde geri dönüştürüldüğünde çevreye zarar vermez. Yetkili geri dönüşüm noktalarına teslim ederek doğayı koruyabilirsiniz.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="bg-light text-center p-4">
+                    <h5 class="text-uppercase">Doğru Akü Kullanımı</h5>
+                    <p class="mb-0">Akünüzü düzenli olarak kontrol edin ve aracınızın elektrik sistemi ile uyumlu bir akü seçtiğinizden emin olun. Bu, akü ömrünü uzatır ve performansı artırır.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="bg-light text-center p-4">
+                    <h5 class="text-uppercase">Çevre Dostu Üretim</h5>
+                    <p class="mb-0">Firmamız, çevre dostu üretim süreçlerini desteklemektedir. Tüm akülerimiz, geri dönüşüme uygun malzemelerden üretilmiştir.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="bg-light text-center p-4">
+                    <h5 class="text-uppercase">Akü Ömrünü Uzatmanın Yolları</h5>
+                    <p class="mb-0">Kış aylarında düzenli kontrol, gereksiz enerji tüketiminin önlenmesi ve temiz bağlantılar, akü ömrünü uzatmanın basit yollarıdır.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Tips & Awareness End -->
+
+
+
+     <!-- Footer Start -->
+     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5 justify-content-center text-center">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">İletişim Bilgileri</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Beykent Beylikdüzü İstanbul</p>
+                    <p class="mb-2"><a href="tel:+905330596367" class="text-light"><i class="fa fa-phone-alt me-3"></i>0 (533) 059 63 67</a></p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@erenakumarket.com</p>
+                    <div class="d-flex justify-content-center pt-2">
+                        <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">               
+                    <i class="fa fa-car-crash fa-3x text-white mb-3"></i>
+                    <h4 class="text-white">Yol Yardım</h4>
+                    <p class="mb-3 text-white">7/24 Hizmetinizde</p>
+                    <a href="tel:+905330596367" class="btn btn-light py-2 px-4">
+                        <i class="fa fa-phone-alt me-2"></i> Hemen Ara
+                    </a>                    
+            </div>   
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Hizmetlerimiz</h4>
+                    <a class="btn btn-link" href="#">Akü Test ve Değişim</a>
+                    <a class="btn btn-link" href="#">Yol Yardım Hizmeti</a>
+                    <a class="btn btn-link" href="#">Akü Şarj</a>
+                    <a class="btn btn-link" href="#">Akü Montaj</a>
+                    <a class="btn btn-link" href="#">Akü Geri Dönüşüm</a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#"> erenakumarket.com</a>, Tüm Hakları Saklıdır.
+                        Designed By <a class="border-bottom" href="https://erenakumarket.com">Tasarım</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Ana Sayfa</a>
+                            <a href="">Gizlilik Politikaları</a>
+                            <a href="">Yardım</a>
+                            <a href="">Sıkça Sorulan Sorular</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
