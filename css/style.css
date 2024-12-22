@@ -1,3 +1,30 @@
+
+.testimonial-text {
+    background-color: #e6f7ff !important;  /* Açık mavi */
+    color: #333;  /* Yazı rengi (isteğe bağlı) */
+}
+.nav-link {
+    color: rgb(226, 83, 4) !important;
+}
+
+.nav-link.active {
+    color: black !important;
+}
+
+.text-primary {
+    color: rgb(226, 83, 4) !important;
+}
+
+.btn-primary {
+    background-color: rgb(226, 83, 4);
+    border-color: rgb(226, 83, 4);
+}
+
+.btn-primary:hover {
+    background-color: rgb(226, 83, 4); /* Hover için daha koyu bir ton */
+    border-color: rgb(226, 83, 4);
+}
+
 /********** whatsap ayarı için **/
 .whatsapp-float {
     position: fixed;
