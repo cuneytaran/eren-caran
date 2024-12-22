@@ -28,8 +28,8 @@
 /********** whatsap ayarı için **/
 .whatsapp-float {
     position: fixed;
-    bottom: 20px;
-    right: 20px;  /* Sağ alt köşeye taşır */
+    bottom: 20px; /* Alt kenardan 20px yukarıda */
+    left: 20px;   /* Sol kenardan 20px içeride */
     background-color: #25D366;
     color: white;
     border-radius: 50%;
@@ -59,6 +59,7 @@
         height: 100%;
         object-fit: cover;  /* Resmi kutuya sığdırır, orantıyı bozmadan keser */
     }
+    
 /********** Template CSS **********/
 :root {
     --primary: #D81324;
